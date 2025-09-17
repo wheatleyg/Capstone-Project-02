@@ -15,6 +15,6 @@ internal static class Program
 
         test = repo.GetPasswordByCustomerId(test.customer_id);
         
-        Console.WriteLine(test.password_hash);
+        Console.WriteLine(test.password_hash );
     }
 }
